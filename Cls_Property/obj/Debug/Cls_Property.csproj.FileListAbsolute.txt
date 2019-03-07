@@ -49,3 +49,8 @@ C:\sites\Sanjiv Aggarwal\Cls_Property\bin\Debug\Cls_Property.pdb
 C:\sites\Sanjiv Aggarwal\Cls_Property\obj\Debug\Cls_Property.dll
 C:\sites\Sanjiv Aggarwal\Cls_Property\obj\Debug\Cls_Property.pdb
 C:\sites\Sanjiv Aggarwal\Cls_Property\obj\Debug\Cls_Property.csprojResolveAssemblyReference.cache
+C:\sites\Bobby Talati\Cls_Property\bin\Debug\Cls_Property.dll
+C:\sites\Bobby Talati\Cls_Property\bin\Debug\Cls_Property.pdb
+C:\sites\Bobby Talati\Cls_Property\obj\Debug\Cls_Property.csprojResolveAssemblyReference.cache
+C:\sites\Bobby Talati\Cls_Property\obj\Debug\Cls_Property.dll
+C:\sites\Bobby Talati\Cls_Property\obj\Debug\Cls_Property.pdb

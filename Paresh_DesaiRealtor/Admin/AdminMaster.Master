@@ -151,8 +151,8 @@
                                 </li>
                                  <li><a href="Banner.aspx"><i class="menu-icon icon-book"></i>Manage Banner</a>
                                 </li>
-                                <%--<li><a href="ExclusiveCondo.aspx"><i class="menu-icon icon-home"></i>My Listing</a>
-                                </li>--%>
+                                <li><a href="AppointmentList.aspx"><i class="menu-icon icon-home"></i>My Appointments</a>
+                                </li>
                                 <li><a href="Virtual.aspx"><i class="menu-icon icon-home"></i>Virtual Tour</a>
                                 </li>
                                <%-- <li><a href="Testimonials.aspx"><i class="menu-icon icon-home"></i>Testimonials</a>

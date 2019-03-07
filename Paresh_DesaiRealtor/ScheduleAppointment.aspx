@@ -17,6 +17,7 @@
                <%-- <ul class="dt-sc-tabs-frame">
                     <li><a class="current" href="#">Schedule Your Appointment</a></li>
                 </ul>--%>
+
                 <div style="display: block;" class="schedule_appointment">  
                     <h2>
                         Book Your Appointment

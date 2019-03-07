@@ -1980,6 +1980,48 @@ public DataTable GetExclusiveListing()
             }
             return result;
         }
+        public int UpdateAdminAppointment(int ClientId, string FirstName, string LastName, string Email, string PhoneNo, string Date, string Time, string Notes)
+        {
+            int result = 0;
+
+
+
+            try
+            {
+                conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString.ToString());
+
+                SqlCommand cmd = new SqlCommand();
+
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = "usp_UpdateAdminAppointment";
+                cmd.Parameters.AddWithValue("@ID", ClientId);
+                cmd.Parameters.AddWithValue("@FirstName", FirstName);
+                cmd.Parameters.AddWithValue("@LastName", LastName);
+                cmd.Parameters.AddWithValue("@Email", Email);
+                cmd.Parameters.AddWithValue("@PhoneNumber",PhoneNo );
+                cmd.Parameters.AddWithValue("@AppointmentDate", Date);
+                cmd.Parameters.AddWithValue("@AppointmentTime",Time );
+                cmd.Parameters.AddWithValue("@Notes",Notes );
+
+
+                cmd.Connection = conn;
+                if (conn.State == ConnectionState.Closed)
+                {
+                    conn.Open();
+                }
+                cmd.ExecuteNonQuery();
+
+            }
+            catch (Exception ex)
+            { }
+            finally
+            {
+                conn.Close();
+                conn.Dispose();
+            }
+            return result;
+        }
+
         public DataTable GetdataTable(string qry)
         {
             conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConStr"].ConnectionString.ToString());
